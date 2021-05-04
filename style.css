@@ -1,0 +1,138 @@
+body {
+    background: rgb(241, 241, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+    padding: 10px
+}
+
+.viewCodeInterface {
+    float: left;
+    width: 374px;
+}
+
+.interfaceImage {
+    height: 595px;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.viewCodeLogin {
+    float: right;
+    background: white;
+    border: 1px solid rgb(180, 180, 180);
+    width: 374px;
+    margin-top: 50px;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: rgb(56, 56, 56)
+}
+
+.inputLogin {
+    width: 75%;
+    text-align: left;
+    line-height: 28px;
+    margin: auto;
+    display: block;
+    padding: 5px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 3px;
+}
+
+.inputPassword {
+    width: 75%;
+    text-align: left;
+    line-height: 28px;
+    margin: auto;
+    display: block;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 3px;
+}
+
+.signButton {
+    width: 78%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 0px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border-radius: 3px;
+    border: 1px solid rgb(63, 63, 63)
+}
+
+.orText {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(129, 129, 129);
+}
+
+.loginWith {
+    text-align: center;
+}
+
+.githubIcon {
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.forgotPass {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.signUp {
+    float: right;
+    background: white;
+    border: 1px solid rgb(180, 180, 180);
+    width: 374px;
+    margin-top: 10px;
+}
+
+.signUpText {
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        width: 90%;
+    }
+    .viewCodeInterface {
+        display: none;
+    }
+    .viewCodeLogin {
+        width: 100%;
+    }
+    .signUp {
+        width: 100%;
+    }
+}
+
